@@ -1,8 +1,8 @@
 import time
 import telepot
 
-bot_token = 'telegram bot token'
-channel_id = '@channel_name or -100id'
+bot_token = '5897885316:AAELfQvb8sGAdNLODQK8DF8gHHnS4xiLZhY'
+channel_id = '-1001532936085'
 error_count = 0
 # A program that listens to new messages in a telegram channel
 # and deletes the message from the chat if it is the same as the previous message
