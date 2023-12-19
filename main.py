@@ -3,7 +3,6 @@ import telepot
 
 from decouple import config 
 
-APP_ID = config("APP_ID", default=None, cast=int)
 channel_id = config("channel_id", default=None)
 bot_token = config("bot_token")
 
