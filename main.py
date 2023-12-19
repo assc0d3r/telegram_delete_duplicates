@@ -3,8 +3,12 @@ import telepot
 
 from decouple import config 
 
-bot_token = 'telegram bot token'
-channel_id = '@channel_name or -100id'
+APP_ID = config("APP_ID", default=None, cast=int)
+channel_id = config("channel_id", default=None)
+bot_token = config("bot_token")
+
+#bot_token = 'telegram bot token'
+#channel_id = '@channel_name or -100id'
 error_count = 0
 # A program that listens to new messages in a telegram channel
 # and deletes the message from the chat if it is the same as the previous message
